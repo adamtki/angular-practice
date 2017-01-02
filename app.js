@@ -11,8 +11,8 @@ var firstApp = angular.module("firstApp", []);
 // - filer(name, filterFactory)
 // - directive(name, directiveFactory)
 firstApp.controller("FirstController", function ($scope) {
-	$scope.first = "Some";
-	$scope.last = "One";
+	$scope.first = "Adam";
+	$scope.last = "Kim";
 	$scope.heading = "Hello ";
 	$scope.ShowMessage = function () {
 		$scope.message = $scope.first + " " + $scope.last;
